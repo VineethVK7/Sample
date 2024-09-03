@@ -16,7 +16,7 @@ pipeline {
             steps {
                 // Replace with the appropriate deployment command for your environment
                 sh 'ibmcloud login --apikey 1Zfj6elYdOUO-fANDUvzlE6h0QTqjWVA3kpkIwYbnW7E'
-                sh 'ibmcloud cos object-put --bucket my-html-project-bucket --key index.html --file path/to/local/index.html'
+                sh 'ibmcloud cos object-put --bucket vineeth190 --key index.html --file path/to/local/index.html'
             }
         }
     }
